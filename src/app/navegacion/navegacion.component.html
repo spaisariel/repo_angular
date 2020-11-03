@@ -1,0 +1,50 @@
+<mat-sidenav-container class="sidenav-container" >
+  <mat-sidenav #drawer class="sidenav" 
+  
+  fixedInViewport
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="(isHandset$ | async) === false">
+    <mat-toolbar>Menu</mat-toolbar>
+    <mat-nav-list>
+      <a mat-list-item href="#">Mis convenios</a>
+      <a mat-list-item href="#">Mis pagos</a>
+      <a mat-list-item href="#">Salir</a>
+     </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar >
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async">
+        <mat-icon justify="left" aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      
+      <mat-icon>lens</mat-icon>
+          <span fxHide.xs>
+          <a >Mis convenios</a>
+          <a >Mis pagos</a>
+        </span>
+        <mat-icon>notifications</mat-icon>
+
+          <!-- <span class="spacer-left"></span>
+          <mat-icon class="ubicacion" >lens</mat-icon>
+          <span class="spacer-center"></span>
+          <span class="desaparece">
+          <a href="#">Mis convenvios</a>
+          <a href="#">Mis pagos</a>
+          </span> 
+          <span class="spacer-right"></span>
+          <mat-icon class="notificacion-icon">notifications</mat-icon> -->
+
+    </mat-toolbar>
+    <!-- Add Content Here -->
+  </mat-sidenav-content>
+</mat-sidenav-container>
+<!-- 
+
+
+ -->

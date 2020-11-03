@@ -1,15 +1,18 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
 
+import { NgModule } from '@angular/core';
+import { NavegacionComponent } from './navegacion/navegacion.component';
+import { NavbarComponent } from './navbar/navbar.component';
 import { AppComponent } from './app.component';
+import { MaterialModule } from './material/material.module';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    NavegacionComponent
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [MaterialModule],
   providers: [],
   bootstrap: [AppComponent]
 })
