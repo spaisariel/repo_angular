@@ -10,7 +10,7 @@ import { map, shareReplay } from 'rxjs/operators';
   styleUrls: ['./navegacion.component.css']
 })
 export class NavegacionComponent {
-  visible=true;
+  
 
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(
@@ -18,9 +18,7 @@ export class NavegacionComponent {
       shareReplay()
     );
 
-    toggleDisplay() {
-      this.visible = !this.visible;
-    }
+    
   constructor(private breakpointObserver: BreakpointObserver) {}
 
 }

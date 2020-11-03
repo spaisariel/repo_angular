@@ -42,7 +42,7 @@
   background-color:#FF9C19 ;
   
 }
-@media(max-width:768px){
+ /* @media(max-width:768px){
 .ubicacion{color: blue;}
 .mat-toolbar{justify-content:center;}
 .spacer-left {flex:1 1 auto;}
@@ -57,8 +57,14 @@
   .spacer-center{flex:1 1 auto;}
   .sidenav{display: none;}
   .spacer-right {flex:1 1 auto;}
-}
+}  */
 
 .notificacion-icon{
   justify-content: end;
+}
+
+.cardList {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around
 }
