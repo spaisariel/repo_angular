@@ -7,6 +7,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatCardModule} from '@angular/material/card';
+
 
 const material =[
   BrowserAnimationsModule,
@@ -16,7 +19,9 @@ const material =[
   MatSidenavModule,
   MatIconModule,
   FlexLayoutModule,
-  MatListModule];
+  MatListModule,
+  MatGridListModule,
+  MatCardModule];
 
 @NgModule({
   exports: [material],
