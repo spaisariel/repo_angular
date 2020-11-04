@@ -12,16 +12,23 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './home/home.component';
 import { CardComponent } from './card/card.component';
-import { Home } from './home.msj/home.msj.component';
+import { HomeMsjComponent } from './home.msj/home.msj.component';
 import { ShortcutsComponent } from './shortcuts/shortcuts.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent,  
-    NavigationComponent, HomeComponent, CardComponent, Home.MsjComponent, ShortcutsComponent
+    AppComponent,
+    NavigationComponent, HomeComponent, CardComponent, HomeMsjComponent, ShortcutsComponent
   ],
-  imports: [MaterialModule, BrowserAnimationsModule, LayoutModule, MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule],
+  imports: [MaterialModule,
+    BrowserAnimationsModule,
+    LayoutModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule],
   providers: [],
   bootstrap: [AppComponent]
 })
