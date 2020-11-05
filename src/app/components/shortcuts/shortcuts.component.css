@@ -1,5 +1,26 @@
 .shortCutImg
 {
-  max-width: 50%;
+  max-width: 100%;
     height: auto;
 }
+
+.mat-body-2{
+  font-size: 100%;
+  line-height : 100%;
+  text-align: center;
+
+}
+
+.mat-grid-list{
+  max-width: 500px;
+  margin: auto;
+}
+.mat-button{
+ height: 70%;
+ width: 70%;
+ background-color: white;
+ }
+.container1{
+ height: 80%;
+ width: 80%;
+ }

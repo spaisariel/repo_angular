@@ -10,7 +10,7 @@
       <a mat-list-item href="#">Salir</a>
     </mat-nav-list>
   </mat-sidenav>
-  <mat-sidenav-content >
+  <mat-sidenav-content>
     <mat-toolbar fxLayout="row" fxLayoutAlign="space-between center" color="primary">
       <button type="button" fxHide.gt-xs aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()"
         *ngIf="isHandset$ | async">
@@ -23,7 +23,7 @@
       </span>
       <mat-icon>notifications</mat-icon>
     </mat-toolbar>
-    <div class="mat-display-1">Ariel, ¿Que deuda queres solucionar?</div>
+    
     <app-home-msj></app-home-msj>
     <app-shortcuts></app-shortcuts>
     <app-home></app-home>
