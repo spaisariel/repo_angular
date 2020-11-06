@@ -11,8 +11,10 @@
    height: 80%;
    width: 80%;
    margin: auto;
+
+   align-items: center;
  }
- 
+
  .content{
     background-color: #FF9C19;
     padding: 5%;
@@ -23,4 +25,7 @@
   margin: auto;
 }
 
- 
+.center{
+  align-items: center;
+  text-align: center;
+}
