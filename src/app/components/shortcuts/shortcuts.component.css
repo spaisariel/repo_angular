@@ -8,12 +8,11 @@
   font-size: 100%;
   line-height : 100%;
   text-align: center;
-
 }
 
 .mat-grid-list{
   max-width: 500px;
-  margin: auto;
+  background-color: khaki;
 }
 .mat-button{
  height: 70%;

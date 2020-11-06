@@ -9,13 +9,16 @@ import { PruebaHttpService } from 'src/app/prueba-http.service';
 export class HomeMsjComponent implements OnInit {
 
   constructor(private pruebaHttpServ: PruebaHttpService ) { }
-  modelo: Modelo[];
+  modelos: Modelo[];
+  
+
   ngOnInit(): void {
     this.traerInfoDesdeElServicio();
   }
 
   traerInfoDesdeElServicio(): void{
-  this.pruebaHttpServ.getModelosDeEjemplo().subscribe(data => this.modelo = data);
+  this.pruebaHttpServ.getModelosDeEjemplo().subscribe(data => this.modelos = data);
+
   }
 
 }

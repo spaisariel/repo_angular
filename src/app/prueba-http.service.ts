@@ -8,6 +8,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class PruebaHttpService {
 private urlApi = 'https://jsonplaceholder.typicode.com/users';
+
+
   constructor(private http: HttpClient) { }
 
   getModelosDeEjemplo(): Observable<Modelo[]>{
