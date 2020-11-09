@@ -13,7 +13,7 @@
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
-    <div >
+    <div>
     <mat-toolbar fxLayout="row" fxLayoutAlign="space-between center"  color="primary">
       <button type="button" fxHide.gt-xs aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()"
         *ngIf="isHandset$ | async">
@@ -28,10 +28,10 @@
       <mat-icon>notifications</mat-icon>
     </mat-toolbar>
   </div>
-
-     <app-home-msj ></app-home-msj>
+<div>
+    <app-home-msj></app-home-msj>
     <app-shortcuts></app-shortcuts>
     <app-card class="center"></app-card>
-
+</div>
       </mat-sidenav-content>
 </mat-sidenav-container>
