@@ -3,6 +3,7 @@
     text-align: center;
     font-size: x-large;
     margin-bottom: 0.8rem;
+    background: transparent;
 }
 .fill {
     flex: 1;
