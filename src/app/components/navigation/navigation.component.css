@@ -32,10 +32,14 @@
 .mat-button img{
   width: 15%;
 }
-.mat-fab{
-  background-color: green;
-  
+
+.flotante{
+  display:scroll;
+  position:fixed;
+  bottom: 3%;
+  right: 2%;
 }
-.fill{
-  flex: 1;
+.mat-fab
+{
+  background-color: forestgreen;
 }
