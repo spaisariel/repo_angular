@@ -1,0 +1,13 @@
+.flotante{
+    display:scroll;
+    position:fixed;
+    bottom: 3%;
+    right: 2%;
+  }
+  .mat-fab
+  {
+    background-color: forestgreen;
+    background: url("/assets/whatsapp.png");
+    background-size: contain;
+    border: 1px solid white
+  }

@@ -20,8 +20,8 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
       <!-- <mat-icon>lens</mat-icon> -->
-      <button mat-button>
-        <img src="assets/logo-quedeuda.png" />
+      <button class="mat-fab-logo" mat-fab>
+        
       </button>
       <span fxLayoutGap="20px" fxHide.xs>
         <a>Mis convenios</a>
@@ -32,12 +32,14 @@
     </mat-toolbar>
   </div>
      <app-home-msj ></app-home-msj>
-    <app-shortcuts></app-shortcuts>
+    <app-shortcuts class="center1"></app-shortcuts>
     <app-card class="center"></app-card>
     <!-- <a class='flotante' href='#' ><img src='assets/logo-quedeuda.png' border="0"/></a> -->
     <!-- <button mat-fab> </button> -->
-    <a button mat-fab class="flotante" href="https://wa.me/5493434068456">
-    <mat-icon> call</mat-icon> </a>
+    <!-- <a button mat-fab class="flotante" href="https://wa.me/5493434068456"> -->
+      <app-buttonwhatsapp></app-buttonwhatsapp>
+    <!-- <mat-icon> call</mat-icon>  -->
+  <!-- </a> -->
      
       </mat-sidenav-content>
 </mat-sidenav-container>

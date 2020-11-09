@@ -3,14 +3,15 @@
 
 }
 .sidenav {
-  width: 200px;
-
+width: 200px;
 }
+.mat-nav-list{
+ background-color: #fafafa;
+}
+.mat-toolbar {
 
-.sidenav .mat-toolbar {
-  /* background: inherit; */
-  background: transparent;
-  display: none;
+    display: none;
+  
 }
 
 .mat-toolbar.mat-primary {
@@ -33,13 +34,17 @@
   width: 15%;
 }
 
-.flotante{
-  display:scroll;
-  position:fixed;
-  bottom: 3%;
-  right: 2%;
-}
 .mat-fab
 {
-  background-color: forestgreen;
+  background: url("/assets/logo-quedeuda.png");
+  background-size: cover;
+  background-position: center;
+  box-shadow: none
+  
+  
+  /* border: 1px solid white*/
+} 
+.app-shortcuts {
+  margin: auto;
+  justify-content: center;
 }

@@ -16,6 +16,7 @@
 
 .mat-grid-list{
   max-width: 500px;
+  margin: auto;
 }
 .mat-button{
  height: 70%;

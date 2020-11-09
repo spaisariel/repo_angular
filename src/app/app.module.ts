@@ -10,6 +10,7 @@ import { HomeMsjComponent } from './components/home.msj/home.msj.component';
 import { ShortcutsComponent } from './components/shortcuts/shortcuts.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { ButtonwhatsappComponent } from './buttonwhatsapp/buttonwhatsapp.component';
 
 
 
@@ -21,7 +22,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     HomeComponent, 
     CardComponent, 
     HomeMsjComponent, 
-    ShortcutsComponent
+    ShortcutsComponent, ButtonwhatsappComponent
   ],
   imports: [MaterialModule,
     BrowserAnimationsModule,
