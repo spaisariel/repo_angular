@@ -31,3 +31,14 @@
 .mat-button img{
   width: 15%;
 }
+
+.flotante{
+  display:scroll;
+  position:fixed;
+  bottom: 3%;
+  right: 2%;
+}
+.mat-fab
+{
+  background-color: forestgreen;
+}
