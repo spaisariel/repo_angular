@@ -28,3 +28,8 @@ export interface Company {
   catchPhrase: string;
   bs: string;
 }
+
+export interface EntidadAcreedora{
+  nombre: string;
+  descripcion: string;
+}

@@ -1,5 +1,8 @@
 .mat-display-1{
+  padding-top: 0.8rem;
     text-align: center;
+    font-size: x-large;
+    margin-bottom: 0.8rem;
 }
 .fill {
     flex: 1;
