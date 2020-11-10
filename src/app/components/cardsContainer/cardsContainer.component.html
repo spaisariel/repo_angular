@@ -1,5 +1,6 @@
-<div class="content" fxLayout="row wrap" fxLayoutGap="20px grid" fxLayoutAlign="enter center">
-    <app-card fxFlex [card]="item" *ngFor="let item of entidadesAcreedoras" fxFlex="25%" fxFlex.xs="100%"
-        fxFlex.sm="33%"></app-card>
+<div class="content">
+    <div fxLayout="row wrap" fxLayoutGap="20px grid" fxLayoutAlign="space-around center">
+        <app-card fxFlex [card]="item" *ngFor="let item of entidadesAcreedoras" fxFlex="25%" fxFlex.xs="100%"
+            fxFlex.sm="33%"></app-card>
+    </div>
 </div>
-
