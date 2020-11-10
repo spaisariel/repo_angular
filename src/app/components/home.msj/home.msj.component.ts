@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Modelo } from 'src/app/models/modeloDeEjemplo';
-import { PruebaHttpService } from 'src/app/prueba-http.service';
+import { PruebaHttpService } from 'src/app/services/prueba-http.service';
 @Component({
   selector: 'app-home-msj',
   templateUrl: './home.msj.component.html',

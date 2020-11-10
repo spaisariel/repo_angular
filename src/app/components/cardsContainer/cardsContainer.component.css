@@ -1,0 +1,17 @@
+/* .mat-card{
+    display: flex;
+    justify-content: space-between;
+} */
+.fill{
+    flex: 1;
+}
+.content{
+    background-color: #FF9C19;
+    padding: 5%;
+    max-width: 70%;
+    margin:auto;
+}
+.div{
+  margin: auto;
+}
+

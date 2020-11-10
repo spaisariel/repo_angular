@@ -1,4 +1,4 @@
-<div>
+
 <mat-sidenav-container class="sidenav-container">
   <mat-sidenav #drawer fixedInViewport [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
     [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="false">
@@ -33,12 +33,13 @@
   </div>
      <app-home-msj ></app-home-msj>
     <app-shortcuts class="center1"></app-shortcuts>
-    <app-card class="center"></app-card>
+    <app-cardscontainer class="center"></app-cardscontainer>
+    
     <!-- <a class='flotante' href='#' ><img src='assets/logo-quedeuda.png' border="0"/></a> -->
     <!-- <button mat-fab> </button> -->
     <!-- <a button mat-fab class="flotante" href="https://wa.me/5493434068456"> -->
       <app-buttonwhatsapp></app-buttonwhatsapp>
-    <!-- <mat-icon> call</mat-icon>  -->
+          <!-- <mat-icon> call</mat-icon>  -->
   <!-- </a> -->
      
       </mat-sidenav-content>

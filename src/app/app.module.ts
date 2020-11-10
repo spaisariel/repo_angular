@@ -5,12 +5,13 @@ import { MaterialModule } from './material/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { HomeComponent } from './components/home/home.component';
+import { CardsContainerComponent } from './components/cardsContainer/cardsContainer.component';
 import { CardComponent } from './components/card/card.component';
 import { HomeMsjComponent } from './components/home.msj/home.msj.component';
 import { ShortcutsComponent } from './components/shortcuts/shortcuts.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { ButtonwhatsappComponent } from './buttonwhatsapp/buttonwhatsapp.component';
+import { ButtonwhatsappComponent } from './components/buttonwhatsapp/buttonwhatsapp.component';
 
 
 
@@ -22,7 +23,7 @@ import { ButtonwhatsappComponent } from './buttonwhatsapp/buttonwhatsapp.compone
     HomeComponent, 
     CardComponent, 
     HomeMsjComponent, 
-    ShortcutsComponent, ButtonwhatsappComponent
+    ShortcutsComponent, ButtonwhatsappComponent,CardsContainerComponent
   ],
   imports: [MaterialModule,
     BrowserAnimationsModule,
