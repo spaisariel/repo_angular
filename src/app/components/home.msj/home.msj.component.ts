@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Modelo } from 'src/app/models/modeloDeEjemplo';
-import { PruebaHttpService } from 'src/app/services/prueba-http.service';
+import { Modelo } from '@models/modeloDeEjemplo';
+import { PruebaHttpService } from '@services/prueba-http.service';
 @Component({
   selector: 'app-home-msj',
   templateUrl: './home.msj.component.html',
@@ -10,7 +10,7 @@ export class HomeMsjComponent implements OnInit {
 
   constructor(private pruebaHttpServ: PruebaHttpService ) { }
   modelos: Modelo[];
-  
+
 
   ngOnInit(): void {
     this.traerInfoDesdeElServicio();

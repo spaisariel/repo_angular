@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { EntidadAcreedora, Modelo } from 'src/app/models/modeloDeEjemplo';
-import { PruebaHttpService } from 'src/app/services/prueba-http.service';
+import { EntidadAcreedora, Modelo } from '@models/modeloDeEjemplo';
+import { PruebaHttpService } from '@services/prueba-http.service';
 
 @Component({
   selector: 'app-cardscontainer',
@@ -8,11 +8,11 @@ import { PruebaHttpService } from 'src/app/services/prueba-http.service';
   styleUrls: ['./cardsContainer.component.css']
 })
 export class CardsContainerComponent  {
-  
+
   constructor(private pruebaHttpServ: PruebaHttpService ) { }
   modelo: Modelo[];
   entidadesAcreedoras: EntidadAcreedora[];
-  
+
 
 
   ngOnInit(): void {
