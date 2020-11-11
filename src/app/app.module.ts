@@ -23,9 +23,12 @@ import { ButtonwhatsappComponent } from './components/buttonwhatsapp/buttonwhats
     HomeComponent, 
     CardComponent, 
     HomeMsjComponent, 
-    ShortcutsComponent, ButtonwhatsappComponent,CardsContainerComponent
+    ShortcutsComponent, 
+    ButtonwhatsappComponent,
+    CardsContainerComponent
   ],
-  imports: [MaterialModule,
+  imports: [
+    MaterialModule,
     BrowserAnimationsModule,
     HttpClientModule,
     FlexLayoutModule],

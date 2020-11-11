@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input} from '@angular/core';
 import { EntidadAcreedora } from 'src/app/models/modeloDeEjemplo';
 
 @Component({
@@ -6,10 +6,8 @@ import { EntidadAcreedora } from 'src/app/models/modeloDeEjemplo';
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.css']
 })
-export class CardComponent implements OnInit {
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
-  }
+export class CardComponent{
+  
   @Input() card:EntidadAcreedora;
   
 
