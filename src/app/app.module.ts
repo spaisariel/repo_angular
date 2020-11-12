@@ -12,6 +12,8 @@ import { ShortcutsComponent } from './components/shortcuts/shortcuts.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { ButtonwhatsappComponent } from './components/buttonwhatsapp/buttonwhatsapp.component';
+import { FormularioComponent } from './formulario/formulario.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -25,13 +27,15 @@ import { ButtonwhatsappComponent } from './components/buttonwhatsapp/buttonwhats
     HomeMsjComponent, 
     ShortcutsComponent, 
     ButtonwhatsappComponent,
-    CardsContainerComponent
+    CardsContainerComponent,
+    FormularioComponent
   ],
   imports: [
     MaterialModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    FlexLayoutModule],
+    FlexLayoutModule,
+    FormsModule],
   providers: [],
   bootstrap: [AppComponent]
 })
