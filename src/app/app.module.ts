@@ -14,9 +14,13 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { ButtonwhatsappComponent } from './components/buttonwhatsapp/buttonwhatsapp.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { FormsModule } from '@angular/forms';
+import { LogincontainerComponent } from './components/login/logincontainer/logincontainer.component';
+import { LoginzeroComponent } from './components/login/loginzero/loginzero.component';
+import { LoginfirstComponent } from './components/login/loginfirst/loginfirst.component';
+import { LoginsecondComponent } from './components/login/loginsecond/loginsecond.component';
 
 
-
+//
 
 @NgModule({
   declarations: [
@@ -28,7 +32,11 @@ import { FormsModule } from '@angular/forms';
     ShortcutsComponent, 
     ButtonwhatsappComponent,
     CardsContainerComponent,
-    FormularioComponent
+    FormularioComponent,
+    LogincontainerComponent,
+    LoginzeroComponent,
+    LoginfirstComponent,
+    LoginsecondComponent
   ],
   imports: [
     MaterialModule,
