@@ -2,6 +2,7 @@
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { MaterialModule } from './material/material.module';
+import { AppRoutingModule } from './modules/router.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { HomeComponent } from './components/home/home.component';
@@ -25,11 +26,11 @@ import { LoginsecondComponent } from './components/login/loginsecond/loginsecond
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationComponent, 
-    HomeComponent, 
-    CardComponent, 
-    HomeMsjComponent, 
-    ShortcutsComponent, 
+    NavigationComponent,
+    HomeComponent,
+    CardComponent,
+    HomeMsjComponent,
+    ShortcutsComponent,
     ButtonwhatsappComponent,
     CardsContainerComponent,
     FormularioComponent,
@@ -43,7 +44,8 @@ import { LoginsecondComponent } from './components/login/loginsecond/loginsecond
     BrowserAnimationsModule,
     HttpClientModule,
     FlexLayoutModule,
-    FormsModule],
+    FormsModule,
+    AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent]
 })
