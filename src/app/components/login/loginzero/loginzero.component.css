@@ -1,10 +1,19 @@
-/* .mat-raised-button {
-    width: 70%;
-    height: 100%;
-   } */
-   .mat-display-1{
+.mat-raised-button {
+    font-size: xxx-large;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+
+   }
+.mat-display-1{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 80%;
    }
+   /* @media (max-heigth: 600px){
+    .imagen{
+      display: none;
+    } 
+  } */
+  
