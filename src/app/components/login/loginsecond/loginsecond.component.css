@@ -1,0 +1,14 @@
+.mat-raised-button {
+    font-size: xxx-large;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+
+   }
+   .fill {
+    flex: 1;
+  }
+  mat-form-field.mat-form-field {
+    font-size: 26px;
+    width: 60%;
+  }
