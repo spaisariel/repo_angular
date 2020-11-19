@@ -1,23 +1,24 @@
-.sidenav-container {
+/* .sidenav-container {
   height: 100%;
-}
+} */
 
-.sidenav {
-width: 200px;
-}
+ .sidenav {
+color: #1a237e;/*<-indigo 900*/
+} 
 
 .mat-nav-list{
- background-color: #fafafa;
+ background-color: #fafafa; 
 }
 
-.mat-toolbar {
+/* .mat-toolbar {
     display: none;
-}
+}  */
 
 .mat-toolbar.mat-primary {
   position: sticky;
   top: 0;
   z-index: 1;
+  
 }
 
 .tarjeta{
