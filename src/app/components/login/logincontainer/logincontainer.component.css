@@ -4,22 +4,18 @@
     background: url("/assets/60.jpg");
     background-size:cover; 
     background-repeat: no-repeat;
-    background-position: top,center; 
-    /* object-fit: cover; */
-    
+    background-position: top,center;     
 }
-
- /* @media (max-heigth: 600px){
+ @media (min-width: 600px){
     .imagen{
-    
-        como poner width y heigth en null?..
-
-    background: url("/assets/60.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top,center; 
+ height: auto;   
     } 
-} */
+}
+ @media (max-width: 1000px){
+    .imagen{
+ height: 100%;   
+    }
+} 
 .center {
         display: flex;
         align-items: center;

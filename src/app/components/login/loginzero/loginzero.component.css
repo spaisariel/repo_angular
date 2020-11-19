@@ -23,12 +23,12 @@
       display: none;
     } 
   } */
-  .center {
+.center {
     display: flex;
     align-items: center;
     justify-content: center;
-     }
-     .imagenlogo{
+}
+.imagenlogo{
       display: flex; 
-      width: 80%;
-     }
+      width: 300px;
+}

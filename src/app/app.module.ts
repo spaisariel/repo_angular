@@ -19,6 +19,8 @@ import { LogincontainerComponent } from './components/login/logincontainer/login
 import { LoginzeroComponent } from './components/login/loginzero/loginzero.component';
 import { LoginfirstComponent } from './components/login/loginfirst/loginfirst.component';
 import { LoginsecondComponent } from './components/login/loginsecond/loginsecond.component';
+import { BrowserModule } from '@angular/platform-browser';
+import { LayoutModule } from '@angular/cdk/layout';
 
 
 //
@@ -45,7 +47,9 @@ import { LoginsecondComponent } from './components/login/loginsecond/loginsecond
     HttpClientModule,
     FlexLayoutModule,
     FormsModule,
-    AppRoutingModule],
+    AppRoutingModule,
+    BrowserModule,
+    LayoutModule],
   providers: [],
   bootstrap: [AppComponent]
 })
