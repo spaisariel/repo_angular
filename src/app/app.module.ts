@@ -21,6 +21,7 @@ import { LoginfirstComponent } from './components/login/loginfirst/loginfirst.co
 import { LoginsecondComponent } from './components/login/loginsecond/loginsecond.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { LayoutModule } from '@angular/cdk/layout';
+import { DeudasComponent } from './components/deudas/deudas.component';
 
 
 //
@@ -39,7 +40,8 @@ import { LayoutModule } from '@angular/cdk/layout';
     LogincontainerComponent,
     LoginzeroComponent,
     LoginfirstComponent,
-    LoginsecondComponent
+    LoginsecondComponent,
+    DeudasComponent
   ],
   imports: [
     MaterialModule,

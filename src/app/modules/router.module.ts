@@ -6,6 +6,8 @@ import { LogincontainerComponent } from '../components/login/logincontainer/logi
 import { LoginzeroComponent } from '../components/login/loginzero/loginzero.component';
 import { LoginfirstComponent } from '../components/login/loginfirst/loginfirst.component';
 import { LoginsecondComponent } from '../components/login/loginsecond/loginsecond.component';
+import { HomeComponent } from '../components/home/home.component';
+import { DeudasComponent } from '../components/deudas/deudas.component';
 
 const routes: Routes = [
      {
@@ -31,8 +33,27 @@ const routes: Routes = [
       ]
      },
      {
-       path: 'home',
-       component: NavigationComponent
+       path: 'autogestion',
+       component: NavigationComponent,
+       children: [{
+         path: '',
+         pathMatch: 'prefix',
+         redirectTo: 'deudas'
+       },
+      {
+        path: 'deudas',
+        component: DeudasComponent,
+        children: [{
+          path: '',
+          pathMatch: 'prefix',
+          redirectTo: 'misdeudas'
+        },
+      {
+        path: 'misdeudas',
+        component: HomeComponent
+      }]
+      }
+      ]
      }
 ];
 
