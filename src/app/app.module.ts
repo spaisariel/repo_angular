@@ -22,6 +22,7 @@ import { LoginsecondComponent } from './components/login/loginsecond/loginsecond
 import { BrowserModule } from '@angular/platform-browser';
 import { LayoutModule } from '@angular/cdk/layout';
 import { DeudasComponent } from './components/deudas/deudas.component';
+import { ConsultarDeudaComponent } from './components/consultar-deuda/consultar-deuda.component';
 
 
 //
@@ -41,7 +42,8 @@ import { DeudasComponent } from './components/deudas/deudas.component';
     LoginzeroComponent,
     LoginfirstComponent,
     LoginsecondComponent,
-    DeudasComponent
+    DeudasComponent,
+    ConsultarDeudaComponent
   ],
   imports: [
     MaterialModule,

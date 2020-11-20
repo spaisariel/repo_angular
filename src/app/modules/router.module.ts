@@ -8,6 +8,7 @@ import { LoginfirstComponent } from '../components/login/loginfirst/loginfirst.c
 import { LoginsecondComponent } from '../components/login/loginsecond/loginsecond.component';
 import { HomeComponent } from '../components/home/home.component';
 import { DeudasComponent } from '../components/deudas/deudas.component';
+import { ConsultarDeudaComponent } from '../components/consultar-deuda/consultar-deuda.component';
 
 const routes: Routes = [
      {
@@ -52,6 +53,10 @@ const routes: Routes = [
         path: 'misdeudas',
         component: HomeComponent
       }]
+      },
+      {
+        path: 'consultarOtraDeuda',
+        component: ConsultarDeudaComponent
       }
       ]
      }
