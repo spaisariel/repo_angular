@@ -8,12 +8,23 @@
     flex: 1;
   }
   mat-hint {
-    font-size: 16px;
+    font-size: 17px;
+    
     
   }
   mat-form-field{
-    width: 300px;
+    width: 20rem;
+    font-size: 30px;
+    
   }
   .fill{
     flex:1;
+  }
+  .container{
+    height: 100%;
+    width: 100%;
+    
+   } 
+   .containerboton{
+    margin-bottom: 5%;
   }

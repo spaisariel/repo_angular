@@ -2,8 +2,8 @@
 @include mat-core();
 
 $my-theme-app-primary: mat-palette($mat-indigo,900);
-$my-theme-app-accent:  mat-palette($mat-teal, A200, A100, A400);
-$my-theme-app-warn:    mat-palette($mat-orange);
+$my-theme-app-accent:  mat-palette($mat-amber, A200, A100, A400);
+$my-theme-app-warn:    mat-palette($mat-red);
 
 $my-theme-app-theme: mat-light-theme((
   color: (

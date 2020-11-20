@@ -1,5 +1,38 @@
+  <form class="container" #f="ngForm" (ngSubmit)="onSubmit(f)" fxLayout="column" fxLayoutAlign="space-between center">
+    <div fxFlex fxLayout="column" fxLayoutAlign="end center">
+    <div>
+      <mat-form-field>
+        <input type="number" matInput placeholder="Ingrese su DNI" ngModel name="dni" required minlength="7" maxlength="8">
+        <mat-error>Ingrese correctamente su dni.</mat-error>
+      </mat-form-field>
+    </div>
+    <div>
+      <mat-form-field>
+        <input type="email" matInput placeholder="Ingrese su email" ngModel name="email" email required
+          #emailInput="ngModel">
+        <mat-error *ngIf="emailInput.hasError('required')">Debe ingresar su email.</mat-error>
+        <mat-error *ngIf="!emailInput.hasError('required')">Su email es invalido.</mat-error>
+      </mat-form-field>
+    </div>
+    <div>
+      <mat-form-field>
+        <input type="tel" matInput placeholder="Ingrese su telefono" ngModel name="telefono" required
+          #telefonoInput="ngModel">
+        <mat-error *ngIf="telefonoInput.hasError('required')">Debe ingresar su email.</mat-error>
+      </mat-form-field>
+    </div>
+  </div>
+    <div fxFlex fxLayoutAlign="center end" class="containerboton">
+      <button type="submit" routerLink="/signInS" mat-raised-button color="primary" [disabled]="f.invalid"
+        >Registrarse</button>
+    </div>
+  </form>
 
-<section style="height: 90%;" class="signup-form">
+
+
+
+
+<!-- <section style="height: 90%;" class="signup-form">
   <form style="height: 90%;" #f="ngForm" (ngSubmit)="onSubmit(f)" fxLayout="column" fxLayoutAlign="space-between center">
     <div style="height: 90%;" fxLayout="column" fxLayoutGap="10px">
     <mat-form-field >
@@ -22,5 +55,4 @@
         [disabled]="f.invalid" fxFlex="20%">Ingresar</button>
       </div>
   </form>
-</section>
-
+</section> -->

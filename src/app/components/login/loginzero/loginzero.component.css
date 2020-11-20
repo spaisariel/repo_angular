@@ -1,4 +1,4 @@
-.mat-raised-button {
+ .mat-raised-button {
     font-size: xxx-large;
     text-align: center;
     width: 300px;
@@ -6,49 +6,58 @@
 
    }
 .mat-display-1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    text-align: center;
+  text-align: center;
+ 
    }
-   .mat-display-3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-  
-    
-   }
-   /* @media (max-heigth: 600px){
+   
+    @media (max-heigth: 600px){
     .imagen{
       display: none;
     } 
-  } */
+  }
 .center {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .imagenlogo{
-     width: 60%;
+  width: 80%;
+
 }
 
- @media screen and (orientation: landscape) {
+.container{
+  height: 100%;
+  width: 100%; 
+
+}
+ 
+.containerboton{
+
+  margin-bottom: 5%;
+}
+
+
+/* 
+.containerpadre{
+  height: 900px;
+  width: 900px;
+  border: solid 3px red;
+}
+.containerhijo{
+  height: 200px;
+  width: 200px;
+  border: solid 3px blue;
+  
+} */
+
+ /* @media screen and (orientation: landscape) {
   .imagenlogo {
-   width: 40%; 
+   width: 30%; 
    }
  }
  @media screen and (orientation: portrait) {
    .imagenlogo {
     width:70%; 
     }
-  } 
-.container{
-  height: 90%;
-  width: 100%;
- 
-}
-.fill {
-  flex: 1;
-}
+  }  */

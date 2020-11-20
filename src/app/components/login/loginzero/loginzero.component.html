@@ -1,9 +1,29 @@
-
-<div class="container" fxLayout="column" fxLayoutAlign="space-around center" >
-    <img src="/assets/quedeuda.png" class="imagenlogo">
-        <div class="mat-display-3" >Hola</div>
-    <div class="mat-display-1" >Ahora vas a poder auto-gestionar todas tus deudas</div>
-    <div class="fill"></div>
-    <div><button routerLink="/signInF" mat-raised-button color="primary">Ingresar</button></div>
+<div class="container" fxLayout="column" fxLayoutGap="10px" fxLayoutAlign="space-between center">
+    <div fxFlex fxLayoutAlign="center end" >
+        <img src="/assets/quedeuda.png" class="imagenlogo" >
+    </div>
+    <div class="mat-display-3" fxLayoutAlign="center center" fxFlex>Hola</div>
+    <div class="mat-display-1" fxLayoutAlign="center center" fxFlex>Ahora vas a poder auto-gestionar todas tus deudas</div>
+    <div class="containerboton" fxLayoutAlign="center end" fxFlex><button routerLink="/signInF" mat-raised-button color="primary">Ingresar</button>
+    </div>
 </div>
 
+
+
+<!-- 
+<div class="containerpadre" fxLayout="column" fxLayoutAlign="space-between center">
+    <div class="containerhijo" fxLayoutAlign="center center">
+        <mat-form-field>
+            <input type="text" matInput placeholder="Input">
+        </mat-form-field>
+    </div>
+    <div class="containerhijo" fxLayoutAlign="center center">
+        <mat-form-field >
+            <input type="text" matInput placeholder="Input">
+        </mat-form-field>
+    </div>
+    <div fxFlex="5%"></div>
+    <div class="containerhijo" fxLayoutAlign="center center">
+        <button mat-raised-button color="warn">ACEPTAR</button>
+    </div>
+</div> -->
