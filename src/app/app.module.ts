@@ -23,6 +23,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { LayoutModule } from '@angular/cdk/layout';
 import { DeudasComponent } from './components/deudas/deudas.component';
 import { ConsultarDeudaComponent } from './components/consultar-deuda/consultar-deuda.component';
+import { DeudaentidadComponent } from './components/deudaentidad/deudaentidad.component';
+import { AcordiondeudaComponent } from './components/acordiondeuda/acordiondeuda.component';
 
 
 //
@@ -43,7 +45,9 @@ import { ConsultarDeudaComponent } from './components/consultar-deuda/consultar-
     LoginfirstComponent,
     LoginsecondComponent,
     DeudasComponent,
-    ConsultarDeudaComponent
+    ConsultarDeudaComponent,
+    DeudaentidadComponent,
+    AcordiondeudaComponent
   ],
   imports: [
     MaterialModule,

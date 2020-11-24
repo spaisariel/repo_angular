@@ -9,6 +9,7 @@ import { LoginsecondComponent } from '../components/login/loginsecond/loginsecon
 import { HomeComponent } from '../components/home/home.component';
 import { DeudasComponent } from '../components/deudas/deudas.component';
 import { ConsultarDeudaComponent } from '../components/consultar-deuda/consultar-deuda.component';
+import { DeudaentidadComponent } from '@components/deudaentidad/deudaentidad.component';
 
 const routes: Routes = [
      {
@@ -52,7 +53,11 @@ const routes: Routes = [
       {
         path: 'misdeudas',
         component: HomeComponent
-      }]
+      },{
+        path: 'entidadn',
+        component: DeudaentidadComponent
+      }
+    ]
       },
       {
         path: 'consultarOtraDeuda',
