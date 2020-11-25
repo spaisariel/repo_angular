@@ -10,6 +10,8 @@ import { HomeComponent } from '../components/home/home.component';
 import { DeudasComponent } from '../components/deudas/deudas.component';
 import { ConsultarDeudaComponent } from '../components/consultar-deuda/consultar-deuda.component';
 import { DeudaentidadComponent } from '@components/deudaentidad/deudaentidad.component';
+import { ConvenioComponent } from '../components/convenio/convenio.component';
+import { PlanesdeudaComponent } from '../components/planesdeuda/planesdeuda.component';
 
 const routes: Routes = [
      {
@@ -57,6 +59,14 @@ const routes: Routes = [
       {
         path: 'entidadn',
         component: DeudaentidadComponent
+      },
+      {
+        path: 'misplanes',
+        component: PlanesdeudaComponent
+      },
+      {
+        path: 'convenio',
+        component: ConvenioComponent
       }
     ]
       },

@@ -1,0 +1,25 @@
+#contenedor{
+  border: 1px solid rgb(200, 200, 200, 0.5);
+  border-radius: 15px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 2%;
+  background-color: rgb(200, 200, 200, 0.5);
+  display: flex;
+  min-height: 60px;
+  box-shadow: 1.5px 1.5px 2px rgb(146, 145, 145, 0.5);
+}
+
+#titulo{
+width: 70%;
+text-align: center;
+height: 100%;
+}
+
+
+
+h3{
+  color:rgb(59, 58, 58);
+  text-shadow: 2px 2px 1px rgb(184, 182, 182, 0.8);
+  font-weight: 500;
+}

@@ -10,9 +10,9 @@ export class DeudaentidadComponent implements OnInit {
 
   constructor() { }
 
-  dato: HeaderDosComponentes;
+  header: HeaderDosComponentes;
   ngOnInit(): void {
-    this.dato = {
+    this.header = {
       title : 'Productos a abonar',
       subtitle : 'BBVA'
     };

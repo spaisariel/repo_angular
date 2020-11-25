@@ -26,6 +26,9 @@ import { ConsultarDeudaComponent } from './components/consultar-deuda/consultar-
 import { DeudaentidadComponent } from './components/deudaentidad/deudaentidad.component';
 import { AcordiondeudaComponent } from './components/acordiondeuda/acordiondeuda.component';
 import { EncabezadoDosComponentesComponent } from './components/encabezadoDosComponentes/encabezadoDosComponentes.component';
+import { PlanesdeudaComponent } from './components/planesdeuda/planesdeuda.component';
+import { ConvenioComponent } from './components/convenio/convenio.component';
+import { EncabezadouncomponenteComponent } from './components/encabezadouncomponente/encabezadouncomponente.component';
 
 
 //
@@ -49,7 +52,10 @@ import { EncabezadoDosComponentesComponent } from './components/encabezadoDosCom
     ConsultarDeudaComponent,
     DeudaentidadComponent,
     AcordiondeudaComponent,
-    EncabezadoDosComponentesComponent
+    EncabezadoDosComponentesComponent,
+    PlanesdeudaComponent,
+    ConvenioComponent,
+    EncabezadouncomponenteComponent
   ],
   imports: [
     MaterialModule,

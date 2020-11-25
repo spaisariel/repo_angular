@@ -46,3 +46,27 @@ color: #1a237e;/*<-indigo 900*/
   width: 100% !important;
 
 }
+
+ul li{
+
+display: block;
+float: left;
+}
+
+ul li a{
+  color: white;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#pestanias a{
+  color: white;
+  text-decoration:none;
+}
+
+#pestanias a:hover{
+  font-size: 21px;
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px rgb(104, 140, 173);
+}
