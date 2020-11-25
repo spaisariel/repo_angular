@@ -53,7 +53,8 @@ const routes: Routes = [
       {
         path: 'misdeudas',
         component: HomeComponent
-      },{
+      },
+      {
         path: 'entidadn',
         component: DeudaentidadComponent
       }

@@ -25,6 +25,7 @@ import { DeudasComponent } from './components/deudas/deudas.component';
 import { ConsultarDeudaComponent } from './components/consultar-deuda/consultar-deuda.component';
 import { DeudaentidadComponent } from './components/deudaentidad/deudaentidad.component';
 import { AcordiondeudaComponent } from './components/acordiondeuda/acordiondeuda.component';
+import { EncabezadoDosComponentesComponent } from './components/encabezadoDosComponentes/encabezadoDosComponentes.component';
 
 
 //
@@ -47,7 +48,8 @@ import { AcordiondeudaComponent } from './components/acordiondeuda/acordiondeuda
     DeudasComponent,
     ConsultarDeudaComponent,
     DeudaentidadComponent,
-    AcordiondeudaComponent
+    AcordiondeudaComponent,
+    EncabezadoDosComponentesComponent
   ],
   imports: [
     MaterialModule,

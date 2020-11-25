@@ -3,10 +3,10 @@
     [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="false">
     <!-- funcion para abrir la side nav(isHandset$ | async) ===  -->
     <mat-toolbar color="primary">Menu</mat-toolbar>
-    <mat-nav-list > 
+    <mat-nav-list >
       <a mat-list-item href="#">Mis pagos</a>
       <a mat-list-item href="#">Mis convenios</a>
-      <a routerLink="/consultarOtraDeuda" mat-list-item>Enviar comprobantes</a>
+      <a routerLink="/autogestion/consultarOtraDeuda" mat-list-item>Enviar comprobantes</a>
       <br>
       <a mat-list-item href="#">Salir</a>
     </mat-nav-list>
@@ -25,7 +25,7 @@
         <span fxLayoutGap="20px" fxHide.xs>
           <a>Mis convenios</a>
           <a>Mis pagos</a>
-          <a>Enviar comprobantes</a>
+          <a routerLink="/autogestion/consultarOtraDeuda">Enviar comprobantes</a>
         </span>
         <mat-icon>notifications</mat-icon>
       </mat-toolbar>
