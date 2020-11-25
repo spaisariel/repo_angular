@@ -1,4 +1,22 @@
-<app-encabezadoDosComponentes [dato]="header"></app-encabezadoDosComponentes>
+<div fxFill fxLayout="column" fxLayoutAlign="space-around center" fxLayoutGap="30px">
+    <div style="border: solid 3px green;" fxFill>
+        <app-encabezadoDosComponentes [dato]="header"></app-encabezadoDosComponentes>    </div>
+    <div style="border: solid 3px green;">
+        <div>
 
+            <div style="border: solid 3px red;" fxLayout="row" fxLayoutAlign="end start">
+                <div  >
+                    <div class="mat-title">Marca los productos a abonar</div>
+                </div>
+                <div >
+                    <mat-icon>check_box</mat-icon>
+                </div>
+            </div>
+        </div>
 
-<button routerLink="../misplanes" mat-raised-button color="primary">Aceptar</button>
+        <app-acordiondeuda></app-acordiondeuda>
+    </div>
+    <div style="border: solid 3px green;" fxFlex>
+        <button routerLink="../misplanes" mat-raised-button color="primary">Aceptar</button>
+    </div>
+</div>
