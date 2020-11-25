@@ -40,7 +40,9 @@ color: #1a237e;/*<-indigo 900*/
   margin: auto;
   justify-content: center;
 }
-.mat-list-item
-{
-color: #fafafa;
+
+.container{
+  height: 100% !important;
+  width: 100% !important;
+
 }
