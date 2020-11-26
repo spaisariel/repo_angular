@@ -1,0 +1,15 @@
+/* POR DEFECTO MAT-TITLE TRAE MARGEN INFERIOR, PARA CENTRARLO HAY QUE ELIMINARLO */
+.mat-title{
+    margin-bottom: 0%;
+} 
+.mat-expansion-panel{
+    height: 100%;
+    /* background-color:#ffb74a; */
+}
+.containercheckbox{
+    display: block;
+}
+.mat-checkbox{
+    padding: 5px;
+ }
+

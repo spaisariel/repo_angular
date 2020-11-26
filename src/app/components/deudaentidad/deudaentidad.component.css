@@ -1,0 +1,9 @@
+/* POR DEFECTO MAT-TITLE TRAE MARGEN INFERIOR */
+.mat-title{
+    margin-bottom: 0%;
+} 
+/* PREVIENE EL SCROLL HORIZONTAL */
+.contenedorheader{
+max-width: 100vw;
+width: 100%;
+}

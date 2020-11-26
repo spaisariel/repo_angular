@@ -29,6 +29,7 @@ import { EncabezadoDosComponentesComponent } from './components/encabezadoDosCom
 import { PlanesdeudaComponent } from './components/planesdeuda/planesdeuda.component';
 import { ConvenioComponent } from './components/convenio/convenio.component';
 import { EncabezadouncomponenteComponent } from './components/encabezadouncomponente/encabezadouncomponente.component';
+import { TabledetalledeudaComponent } from './components/tabledetalledeuda/tabledetalledeuda.component';
 
 
 //
@@ -55,7 +56,8 @@ import { EncabezadouncomponenteComponent } from './components/encabezadouncompon
     EncabezadoDosComponentesComponent,
     PlanesdeudaComponent,
     ConvenioComponent,
-    EncabezadouncomponenteComponent
+    EncabezadouncomponenteComponent,
+    TabledetalledeudaComponent
   ],
   imports: [
     MaterialModule,

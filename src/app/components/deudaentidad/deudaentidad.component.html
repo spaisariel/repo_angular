@@ -1,19 +1,12 @@
 <div fxFill fxLayout="column" fxLayoutAlign="space-around center" fxLayoutGap="30px">
-    <div style="border: solid 3px green;" fxFill>
-        <app-encabezadoDosComponentes [dato]="header"></app-encabezadoDosComponentes>    </div>
-    <div style="border: solid 3px green;">
-        <div>
-
-            <div style="border: solid 3px red;" fxLayout="row" fxLayoutAlign="end start">
-                <div  >
-                    <div class="mat-title">Marca los productos a abonar</div>
-                </div>
-                <div >
-                    <mat-icon>check_box</mat-icon>
-                </div>
-            </div>
-        </div>
-
+    <div class="contenedorheader" style="border: solid 3px green;" fxFlex="1"> 
+        <app-encabezadoDosComponentes [dato]="header"></app-encabezadoDosComponentes>
+    </div>
+    <div style="border: solid 3px green;" fxLayout="row" fxLayoutAlign="end center">
+        <div class="mat-title">Marca los productos a abonar</div>
+        <mat-checkbox style="font-size: 30px;"></mat-checkbox>
+    </div>
+    <div>
         <app-acordiondeuda></app-acordiondeuda>
     </div>
     <div style="border: solid 3px green;" fxFlex>
