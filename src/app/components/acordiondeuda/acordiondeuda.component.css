@@ -4,12 +4,24 @@
 } 
 .mat-expansion-panel{
     height: 100%;
-    /* background-color:#ffb74a; */
+    background-color: orange; 
+    
+}
+.mat-expansion-panel-header{
+    padding-left: 5px;
+    padding-right: 5px;
+  
 }
 .containercheckbox{
     display: block;
+    float: right;
 }
 .mat-checkbox{
+    
     padding: 5px;
  }
 
+.container{
+    height: 100%;
+    width: 100%;
+}

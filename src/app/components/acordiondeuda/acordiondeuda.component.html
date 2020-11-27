@@ -1,26 +1,28 @@
 <mat-accordion>
 <mat-expansion-panel hideToggle>
   <mat-expansion-panel-header >
-    <div fxLayout="row" fxLayoutAlign="end center" fxLayoutGap="10px">
-      <mat-icon style="border: solid 2px red;">add_circle_outline</mat-icon>
-      <div style="border: solid 2px red;" class="mat-title">Prestamo personal: $14.000</div>
-      <div style="border: solid 2px red;" class="containercheckbox" (click)="$event.stopPropagation()">
+    <div fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="space-between center" class="container"  >
+         <mat-icon>add_circle_outline</mat-icon>
+          <div class="mat-title">Tarjeta de credito: $12.400</div>
+      <div class="containercheckbox" (click)="$event.stopPropagation()">
         <mat-checkbox color="primary"></mat-checkbox>
       </div>
     </div>
-  </mat-expansion-panel-header>
+ </mat-expansion-panel-header>
   <app-tabledetalledeuda></app-tabledetalledeuda>
 </mat-expansion-panel>
 <mat-expansion-panel hideToggle>
-  <mat-expansion-panel-header>
-    <div fxLayoutGap="10px" fxLayoutAlign="end center" fxLayout="row">
-          <mat-icon style="border: solid 2px red;">add_circle_outline</mat-icon>
-      <div style="border: solid 2px red;" class="mat-title">Tarjeta de credito, Tarjeta de credito Tarjeta de credito, Tarjeta de credito: $124</div>
-      <div style="border: solid 2px red;" class="containercheckbox" (click)="$event.stopPropagation()">
+  <mat-expansion-panel-header >
+    <div fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="space-between center" class="container"  >
+         <mat-icon>add_circle_outline</mat-icon>
+          <div class="mat-title">Tarjeta de credito: $12.400</div>
+      <div class="containercheckbox" (click)="$event.stopPropagation()">
         <mat-checkbox color="primary"></mat-checkbox>
       </div>
     </div>
-  </mat-expansion-panel-header>
+ </mat-expansion-panel-header>
   <app-tabledetalledeuda></app-tabledetalledeuda>
 </mat-expansion-panel>
+
 </mat-accordion>
+
