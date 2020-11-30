@@ -1,5 +1,6 @@
+<div class="container" fxLayout="column" fxLayoutAlign="space-between center">
 <div>
-<div fxFill fxLayout="column" fxLayoutAlign="space-around center" fxLayoutGap="30px">
+    <div fxLayout="column" fxLayoutAlign="space-around center" fxLayoutGap="30px" >
     <div class="contenedorheader"  fxFlex="1"> 
         <app-encabezadoDosComponentes [dato]="header"></app-encabezadoDosComponentes>
     </div>
@@ -10,8 +11,10 @@
     <div>
         <app-acordiondeuda></app-acordiondeuda>
     </div>
-    <div fxFlex>
-        <button routerLink="../misplanes" mat-raised-button color="primary">Aceptar</button>
-    </div>
+            
+</div>
+</div>
+<div class="containerboton" >
+    <button routerLink="../misplanes" mat-raised-button color="primary">Continuar</button>
 </div>
 </div>

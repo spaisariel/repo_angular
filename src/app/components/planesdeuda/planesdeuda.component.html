@@ -1,4 +1,24 @@
-<app-encabezadoDosComponentes [dato]="header"></app-encabezadoDosComponentes>
+<div class="container"  fxLayout="column" fxLayoutAlign="space-between center" >
+    <div  fxLayout="column" fxLayoutGap="20px" fxLayoutAlign="space-between center">
+    <div  class="contenedorheader">
+            <app-encabezadoDosComponentes [dato]="header"></app-encabezadoDosComponentes>
+    </div>
+    
+    <div class="container2"  fxLayout="row" fxLayoutAlign="center start" fxLayoutGap="10px">
+        
+        <mat-icon color="primary" >thumb_up</mat-icon>
+        
+        <div class="mat-title"  >Vas a abonar: Tarjeta xxxxxxxxxx y  Credito xxxxxxxxxxx</div>
+    </div>
+     <div style="width: 100%;"  fxLayoutAlign="space-around center" fxLayout="column" fxLayoutGap="10px">
+    <div class="containertabla" >
+        <app-tableplanesdeuda></app-tableplanesdeuda>
+    </div>
+    <div class="mat-subtitle">*Plazo limite de pago: 26/10/20</div>
+</div>
 
-
-<button routerLink="../convenio" mat-raised-button color="primary">Aceptar</button>
+</div>
+    <div  class="containerboton">
+        <button routerLink="../convenio" mat-raised-button color="primary">Continuar</button>
+    </div>
+</div>

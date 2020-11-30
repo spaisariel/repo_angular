@@ -41,5 +41,9 @@ export interface Deuda{
   origen:string;
   nroProducto:string;
   situacion:string;
-
+}
+export interface Plan{
+  cuotas:string;
+  monto: string;
+  eleccion:boolean;
 }

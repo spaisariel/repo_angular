@@ -1,0 +1,24 @@
+.contenedorheader{
+    max-width: 100vw;
+    width: 100%;
+}
+.container{
+        width: 100%;
+        height: 100%;
+}
+.containerboton{
+        margin-bottom: 20%;
+}
+.containertabla{
+          width: 70%;
+}
+.mat-raised-button {
+    font-size: xxx-large;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+
+   }
+   .container2{
+       width: 70%;
+   }
