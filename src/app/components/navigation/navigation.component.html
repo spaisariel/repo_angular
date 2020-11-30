@@ -1,9 +1,8 @@
 <mat-sidenav-container class="sidenav-container">
   <mat-sidenav fxHide.gt-xs #drawer fixedInViewport [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
     [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="false">
-    <!-- funcion para abrir la side nav(isHandset$ | async) ===  -->
-    <mat-toolbar color="primary">Menu</mat-toolbar>
-    <mat-nav-list >
+    <mat-toolbar color="accent">Menu</mat-toolbar>
+    <mat-nav-list>
       <a mat-list-item href="#">Mis pagos</a>
       <a mat-list-item href="#">Mis convenios</a>
       <a routerLink="/autogestion/consultarOtraDeuda" mat-list-item>Enviar comprobantes</a>
@@ -13,27 +12,18 @@
   </mat-sidenav>
   <mat-sidenav-content>
     <div>
-      <mat-toolbar fxLayout="row" fxLayoutAlign="space-between center" color="primary">
+      <mat-toolbar fxLayout="row" fxLayoutAlign="space-between center" color="accent">
         <button type="button" fxHide.gt-xs aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()"
           *ngIf="isHandset$ | async">
           <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
         </button>
-        <!-- <mat-icon>lens</mat-icon> -->
-        <button routerLink="/autogestion" class="mat-fab-logo" mat-fab>
-
+        <button routerLink="/autogestion" mat-fab >
         </button>
-         <span id="pestanias" fxLayoutGap="20px" fxHide.xs>
+        <span id="pestanias"  fxLayoutGap="20px" fxHide.xs>
           <a>Mis convenios</a>
           <a>Mis pagos</a>
-          <a routerLink="/autogestion/consultarOtraDeuda">Enviar comprobantes</a>
+                    <a routerLink="/autogestion/consultarOtraDeuda">Enviar comprobantes</a>
         </span>
-        <!-- <span fxLayoutGap="20px" fxHide.xs>
-        <ul>
-          <li><a>Mis convenios</a></li>
-          <li><a>Mis pagos</a></li>
-          <li><a routerLink="/autogestion/consultarOtraDeuda">Enviar comprobantes</a></li>
-        </ul>
-      </span> -->
         <mat-icon>notifications</mat-icon>
       </mat-toolbar>
     </div>

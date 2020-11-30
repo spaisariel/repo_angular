@@ -1,33 +1,22 @@
-.imagen{
-    width: 100%;
-    height: 100%; 
+.imagenfondo{
     background: url("/assets/re2a.jpg");
-    background-size:cover; 
     background-repeat: no-repeat;
-    background-position: right;     
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    height: 100%;
+  
 }
- /* @media (min-width: 600px){
-    .imagen{
- height: auto;   
-    } 
-}
- @media (max-width: 1000px){
-    .imagen{
- height: 100%;   
-    }
-}  */
-.center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-/* @media screen and (orientation: landscape) {
+/* 
+@media screen and (orientation: landscape) {
    .imagen {
-    height: auto; 
+    background-size: contain;
+    
     }
   }
   @media screen and (orientation: portrait) {
     .imagen {
-     height:100%; 
-     }
-   } */
+     background-size: cover;
+    
+   }
+   }  */

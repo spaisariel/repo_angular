@@ -8,10 +8,11 @@
   display: flex;
   min-height: 60px;
   box-shadow: 1.5px 1.5px 2px rgb(146, 145, 145, 0.5);
+  /* max-width: 600px; */
 }
 
 #titulo{
-width: 70%;
+width: 70%; 
 text-align: center;
 height: 100%;
 }

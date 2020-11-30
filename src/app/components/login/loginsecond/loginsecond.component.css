@@ -14,12 +14,13 @@
   }
   mat-form-field{
     width: 20rem;
-    font-size: 30px;
+    font-size: 40px;
 
   }
-  .fill{
-    flex:1;
-  }
+  .imagenlogo{
+    width: 80%;
+  
+  }  
   .container{
     height: 100%;
     width: 100%;

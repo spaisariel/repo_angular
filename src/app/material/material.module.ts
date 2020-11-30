@@ -15,6 +15,7 @@ import { MatNativeDateModule } from '@angular/material/core';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatTableModule} from '@angular/material/table';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
 
 const material =[
@@ -32,7 +33,8 @@ const material =[
   MatNativeDateModule,
   MatCheckboxModule,
   MatExpansionModule,
-  MatTableModule
+  MatTableModule,
+  MatProgressSpinnerModule
    ];
 
 @NgModule({

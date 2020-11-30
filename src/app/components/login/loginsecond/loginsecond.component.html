@@ -1,13 +1,19 @@
 <form class="container" fxLayoutAlign="space-between center" fxLayout="column" #f="ngForm" (ngSubmit)="onSubmit(f)">
-    <div  fxFlex fxLayoutAlign="center end">
+    <div fxLayoutAlign="center center" >
+        <img src="/assets/quedeuda.png" class="imagenlogo" >
+    </div>
+    <div  fxLayoutAlign="center end" >
         <mat-form-field appearance="outline">
             <input matInput ngModel name="codigo" required minlength="4" maxlength="4" spellcheck="false" autocomplete="off" style="text-align: center;">
-            <mat-hint>Ingrese el código recibido de 4 digitos.</mat-hint>
+            <mat-hint>Ingrese el código de 4 digitos.</mat-hint>
         </mat-form-field>
 
     </div>
     <!-- <div class="mat-title" fxFlex>Ingrese el codigo de 4 digitos.</div> -->
-    <div class="containerboton" fxFlex fxLayoutAlign="center end" >
+    <div >
+        <!-- DIV VACIO PARA QUE HAYA LA MISMA CANT DE ELEMENTOS Y LA IMAGEN MANTENGA LA PROPORCION -->
+</div>
+    <div class="containerboton"  fxLayoutAlign="center end">
         <button type="submit" routerLink="/autogestion" mat-raised-button color="primary" [disabled]="f.invalid"> Aceptar
         </button>
     </div>

@@ -32,4 +32,14 @@ export interface Company {
 export interface EntidadAcreedora{
   nombre: string;
   descripcion: string;
+  deudas:Deuda[];
+}
+
+export interface Deuda{
+  descripcion:string;
+  monto:string;
+  origen:string;
+  nroProducto:string;
+  situacion:string;
+
 }

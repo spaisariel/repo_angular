@@ -1,18 +1,18 @@
 
 import {Component} from '@angular/core';
+import { Deuda} from '@models/modeloDeEjemplo';
 
-export interface PeriodicElement {
-  name: string;
-  position: number;
-  weight: number;
-  symbol: string;
-}
 
-const ELEMENT_DATA: PeriodicElement[] = [
-  {position: 1, name: 'Hydrogen', weight: 1.0079, symbol: 'H'},
-  {position: 2, name: 'Helium', weight: 4.0026, symbol: 'He'},
-  {position: 3, name: 'Lithium', weight: 6.941, symbol: 'Li'},
-  {position: 4, name: 'Beryllium', weight: 9.0122, symbol: 'Be'},
+
+const ELEMENT_DATA: Deuda[] = [
+  {
+    descripcion: 'Tarjeta de credito',
+    monto: '$ 12.020',
+    origen: 'BBVA',
+    nroProducto: '0213498',
+    situacion: 'SIN CONVENIO'
+  }
+
  
 ];
 
@@ -25,7 +25,8 @@ const ELEMENT_DATA: PeriodicElement[] = [
   styleUrls: ['./tabledetalledeuda.component.css']
 })
 export class TabledetalledeudaComponent {
-  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
+  
+  displayedColumns: string[] = ['Origen', 'N° Producto', 'Situacion'];
   dataSource = ELEMENT_DATA;
 }
 
