@@ -16,7 +16,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatTableModule} from '@angular/material/table';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
-
+import {MatRadioModule} from '@angular/material/radio';
 
 const material =[
   MatSliderModule,
@@ -34,7 +34,8 @@ const material =[
   MatCheckboxModule,
   MatExpansionModule,
   MatTableModule,
-  MatProgressSpinnerModule
+  MatProgressSpinnerModule,
+  MatRadioModule
    ];
 
 @NgModule({

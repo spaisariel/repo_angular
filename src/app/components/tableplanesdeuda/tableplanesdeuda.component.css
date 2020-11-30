@@ -15,6 +15,7 @@ table {
     text-align: center !important;
     padding: 0% !important;
   } 
-  ::ng-deep .mat-checkbox .mat-checkbox-frame {
+  ::ng-deep .mat-checkbox 
+  .mat-checkbox-frame {
     background-color: white; 
 }
