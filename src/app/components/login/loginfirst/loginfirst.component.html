@@ -13,7 +13,7 @@
           </div>
           <div>
             <mat-form-field>
-              <input type="email" matInput placeholder="Ingrese su email" ngModel name="email" email required
+              <input type="email" matInput  autocomplete="off" placeholder="Ingrese su email" ngModel name="email" email required
                 #emailInput="ngModel">
               <mat-error *ngIf="emailInput.hasError('required')">Debe ingresar su email.</mat-error>
               <mat-error *ngIf="!emailInput.hasError('required')">Su email es invalido.</mat-error>
@@ -21,7 +21,7 @@
           </div>
            <div>
             <mat-form-field>
-              <input type="tel" matInput placeholder="Ingrese su telefono" ngModel name="telefono" required
+              <input type="tel" matInput autocomplete="off" placeholder="Ingrese su telefono" ngModel name="telefono" required
                 #telefonoInput="ngModel">
               <mat-error *ngIf="telefonoInput.hasError('required')">Debe ingresar su email.</mat-error>
             </mat-form-field>
@@ -34,7 +34,7 @@
         <button type="submit" routerLink="/signInS" mat-raised-button color="primary"
           [disabled]="f.invalid">Registrarse</button>
       </div>
-   
+
   </form>
 
 

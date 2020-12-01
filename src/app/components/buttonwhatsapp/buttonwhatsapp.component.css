@@ -1,8 +1,10 @@
 .flotante{
     display:scroll;
     position:fixed;
-    bottom: 3%;
-    right: 2%;
+    /* bottom: 3%;
+    right: 2%; */
+    bottom: 8px;
+    right: 10px;
   }
   .mat-fab
   {
@@ -11,3 +13,72 @@
     background-size: contain;
     border: 1px solid white
   }
+
+
+.non-selectable {
+   user-select: none;
+}
+
+  #msjeBack{
+    padding-left: 1REM;
+    background-color: rgb(175, 243, 169, 0.93);
+    border: 2px solid rgb(250, 252, 251);
+    text-align: left;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    line-height: 52px;
+     height: 52px;
+    display:scroll;
+    position:fixed;
+
+    bottom: 8px;
+    right: 38px;
+    /* CELU
+    bottom: 2.84%;
+    right: 9.5%; */
+    /* PC
+    bottom: 3.06%;
+    right: 3.32%; */
+    animation-name: wspHide;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    box-shadow: 2px 2px 2px rgb(87, 104, 87, 0.5);
+    color: rgb(5, 56, 16, 0);
+    width: 0px;
+    overflow: hidden;
+    font-weight: 500;
+
+  }
+
+  @keyframes wspHide{
+    0%{
+      width: 0px;
+    }
+      40%{
+        width: 0px;
+       color: rgb(5, 56, 16, 0);
+    }
+
+    45%{
+      width: 190px;
+      color: rgb(5, 56, 16, 1);
+      height: 52px;
+    }
+    60%{
+      width: 190px;
+      color: rgb(5, 56, 16, 1);
+      height: 52px;
+    }
+
+    65%{
+       color: rgb(5, 56, 16, 0);
+       width: 0px;
+    }
+    /* 100%{
+      width: 0px;
+    } */
+  }
+
