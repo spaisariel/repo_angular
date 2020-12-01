@@ -1,9 +1,9 @@
- 
+
  .sidenav-container {
   /* SIN ESTO NO FUNCIONA BIEN EL SCROLL */
   height: 100%;
   background-color: rgb(231, 231, 231);
-} 
+}
 
  .sidenav {
 /*color: #1a237e;<-indigo 900*/
@@ -74,4 +74,14 @@ ul li a{
   font-size: 21px;
   color: whitesmoke;
   text-shadow: 1px 1px 2px rgb(104, 140, 173);
+}
+
+#menuLateral{
+background-color: #1a237e !important;
+}
+
+mat-nav-list a{
+  background-color: #1a237e !important;
+  color: #fafafa;
+  padding: 0px;
 }

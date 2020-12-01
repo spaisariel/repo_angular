@@ -1,7 +1,7 @@
 <mat-sidenav-container class="sidenav-container">
-  <mat-sidenav fxHide.gt-xs #drawer fixedInViewport [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+  <mat-sidenav id="menuLateral" fxHide.gt-xs #drawer fixedInViewport [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
     [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="false">
-    <mat-toolbar color="accent">Menu</mat-toolbar>
+    <mat-toolbar color="primary">Menu</mat-toolbar>
     <mat-nav-list>
       <a mat-list-item href="#">Mis pagos</a>
       <a mat-list-item href="#">Mis convenios</a>
