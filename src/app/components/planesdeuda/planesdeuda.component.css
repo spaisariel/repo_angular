@@ -7,18 +7,32 @@
         height: 100%;
 }
 .containerboton{
-        margin-bottom: 20%;
+        margin-bottom: 30%;
+        padding-top: 20px;
 }
 .containertabla{
           width: 70%;
 }
 .mat-raised-button {
-    font-size: xxx-large;
+    font-size: xx-large;
     text-align: center;
-    width: 300px;
-    height: 100px;
+    width: 200px;
+    height: 66px;
 
    }
    .container2{
        width: 70%;
    }
+
+   /* @media screen and(orientation: landscape) {
+    .containerboton{
+        margin-bottom: 5%;
+        border: solid 3px;
+}
+   }
+   @media screen and (orientation: portrait) {
+    .containerboton{
+        margin-bottom: 30%;
+        border: transparent;
+}
+    }  */

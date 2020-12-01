@@ -1,10 +1,11 @@
 <div class="container" fxLayout="column" fxLayoutAlign="space-between center">
-<div>
-    <div fxLayout="column" fxLayoutAlign="space-around center" fxLayoutGap="30px" >
-    <div class="contenedorheader"  fxFlex="1"> 
+    <div class="contenedorheader" > 
         <app-encabezadoDosComponentes [dato]="header"></app-encabezadoDosComponentes>
     </div>
-    <div  fxLayoutGap="10px" fxLayout="row" fxLayoutAlign="end center">
+    <div>
+   
+    <div fxLayout="column" fxLayoutAlign="space-around center" fxLayoutGap="30px" >
+        <div  fxLayoutGap="10px" fxLayout="row" fxLayoutAlign="end center">
         <div  class="mat-title">Marca los productos a abonar </div>
         <mat-icon>done_outline</mat-icon>
     </div>
@@ -17,4 +18,5 @@
 <div class="containerboton" >
     <button routerLink="../misplanes" mat-raised-button color="primary">Continuar</button>
 </div>
+
 </div>

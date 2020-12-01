@@ -2,12 +2,15 @@
     <div fxLayoutAlign="center center" >
         <img src="/assets/quedeuda.png" class="imagenlogo" >
     </div>
+    <div class="contenedortexto">
+    <div  class="mat-title"> Revise su casilla de correo o SMS e ingrese aquí el código de verificación que le enviamos.</div>
+</div>
     <div  fxLayoutAlign="center end" >
         <mat-form-field appearance="outline">
-            <input  matInput ngModel name="codigo" autofocus required minlength="4" maxlength="4" spellcheck="false" autocomplete="off" style="text-align: center;">
-            <mat-hint>Ingrese el código de 4 digitos.</mat-hint>
+            <input type="number" matInput ngModel name="codigo" required spellcheck="false" autocomplete="off" style="text-align: center;">
+            <mat-hint>     Ingrese el código recibido.</mat-hint>
+          
         </mat-form-field>
-
     </div>
     <!-- <div class="mat-title" fxFlex>Ingrese el codigo de 4 digitos.</div> -->
     <div >

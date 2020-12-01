@@ -1,21 +1,20 @@
 table {
     width: 100%;
-    background-color: orange; 
+    background-color: #FF9C19; 
     
   }
   /* mat-table{
       border-radius: 15px !important;
   } */
   td.mat-cell{
-      text-align: center;
+  text-align: center;
       padding: 0% !important;
   }
-  
-   th.mat-header-cell {
+  th.mat-header-cell {
     text-align: center !important;
     padding: 0% !important;
   } 
   ::ng-deep .mat-checkbox 
   .mat-checkbox-frame {
-    background-color: white; 
+    background-color: white;
 }
