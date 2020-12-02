@@ -47,3 +47,13 @@ export interface Plan{
   monto: string;
   eleccion:boolean;
 }
+export interface Cuota {
+  numero: string;
+  monto:string;
+  vencimiento:string;
+}
+export interface Cupon{
+  imagen: string;
+  titulo: string;
+  descripcion: string;
+}

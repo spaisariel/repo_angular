@@ -31,6 +31,8 @@ import { ConvenioComponent } from './components/convenio/convenio.component';
 import { EncabezadouncomponenteComponent } from './components/encabezadouncomponente/encabezadouncomponente.component';
 import { TabledetalledeudaComponent } from './components/tabledetalledeuda/tabledetalledeuda.component';
 import { TableplanesdeudaComponent } from './components/tableplanesdeuda/tableplanesdeuda.component';
+import { TableconveniocuotasComponent } from './components/tableconveniocuotas/tableconveniocuotas.component';
+import { TableconveniocuponesComponent } from './components/tableconveniocupones/tableconveniocupones.component';
 
 
 //
@@ -59,7 +61,9 @@ import { TableplanesdeudaComponent } from './components/tableplanesdeuda/tablepl
     ConvenioComponent,
     EncabezadouncomponenteComponent,
     TabledetalledeudaComponent,
-    TableplanesdeudaComponent
+    TableplanesdeudaComponent,
+    TableconveniocuotasComponent,
+    TableconveniocuponesComponent
   ],
   imports: [
     MaterialModule,
