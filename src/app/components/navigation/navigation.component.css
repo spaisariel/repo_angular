@@ -85,3 +85,13 @@ mat-nav-list a{
   color: #fafafa;
   padding: 0px;
 }
+
+.mat-list-base{
+  padding: 0px;
+}
+
+
+
+.fill{
+flex:1;
+}

@@ -3,11 +3,13 @@
     [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="false">
     <mat-toolbar color="primary">Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="#">Mis pagos</a>
-      <a mat-list-item href="#">Mis convenios</a>
-      <a routerLink="/autogestion/consultarOtraDeuda" mat-list-item>Enviar comprobantes</a>
-      <br>
-      <a mat-list-item href="#">Salir</a>
+      <a mat-list-item routerLink="/autogestion">Mis deudas</a>
+      <a mat-list-item routerLink="/autogestion/misPagos">Mis pagos</a>
+      <a mat-list-item routerLink="/autogestion/misConvenios">Mis convenios</a>
+      <a mat-list-item routerLink="/autogestion/enviarComprobante">Enviar comprobantes</a>
+
+      <a id="salir" mat-list-item href="#" (click)="closeCurrentWindow()">Salir</a>
+
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -20,9 +22,10 @@
         <button routerLink="/autogestion" mat-fab >
         </button>
         <span id="pestanias"  fxLayoutGap="20px" fxHide.xs>
-          <a>Mis convenios</a>
-          <a>Mis pagos</a>
-                    <a routerLink="/autogestion/consultarOtraDeuda">Enviar comprobantes</a>
+          <a routerLink="/autogestion">Mis deudas</a>
+          <a routerLink="/autogestion/misConvenios">Mis convenios</a>
+          <a routerLink="/autogestion/misPagos">Mis pagos</a>
+          <a routerLink="/autogestion/enviarComprobante">Enviar comprobantes</a>
         </span>
         <mat-icon>notifications</mat-icon>
       </mat-toolbar>

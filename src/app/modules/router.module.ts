@@ -73,7 +73,19 @@ const routes: Routes = [
       {
         path: 'consultarOtraDeuda',
         component: ConsultarDeudaComponent
-      }
+      },
+      {
+        path: 'misConvenios',
+        component: ConsultarDeudaComponent
+      },
+      {
+        path: 'misPagos',
+        component: ConsultarDeudaComponent
+      },
+      {
+        path: 'enviarComprobante',
+        component: ConsultarDeudaComponent
+      },
       ]
      }
 ];
