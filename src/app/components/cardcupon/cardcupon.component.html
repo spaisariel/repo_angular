@@ -1,0 +1,19 @@
+
+<mat-card class="mat-elevation-z4">
+    <div fxLayout="row" style="margin-top: 0%;">
+    <div fxFlexAlign="center" fxFlex="30%" class="containerlogo"><img src="{{cardcupon.imagen}}"></div>
+<div fxFlex="70%"  style="display: block; border: solid 3px green;">
+    <mat-card-header >
+        <mat-card-title>{{cardcupon.titulo}}</mat-card-title>
+        <mat-card-subtitle>{{cardcupon.descripcion}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-actions >
+        <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="10px">
+            
+        <button routerLink="../entidadn" mat-raised-button color="primary">DESCARGAR <mat-icon>save_alt</mat-icon></button>
+        <button routerLink="../entidadn" mat-raised-button color="primary">ENVIAR <mat-icon>mail_outline</mat-icon></button>
+    </div>
+    </mat-card-actions>
+</div>
+</div>
+</mat-card>

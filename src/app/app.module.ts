@@ -33,6 +33,8 @@ import { TabledetalledeudaComponent } from './components/tabledetalledeuda/table
 import { TableplanesdeudaComponent } from './components/tableplanesdeuda/tableplanesdeuda.component';
 import { TableconveniocuotasComponent } from './components/tableconveniocuotas/tableconveniocuotas.component';
 import { TableconveniocuponesComponent } from './components/tableconveniocupones/tableconveniocupones.component';
+import { CardcuponComponent } from './components/cardcupon/cardcupon.component';
+import { CuponescontainerComponent } from './components/cuponescontainer/cuponescontainer.component';
 
 
 //
@@ -63,7 +65,9 @@ import { TableconveniocuponesComponent } from './components/tableconveniocupones
     TabledetalledeudaComponent,
     TableplanesdeudaComponent,
     TableconveniocuotasComponent,
-    TableconveniocuponesComponent
+    TableconveniocuponesComponent,
+    CardcuponComponent,
+    CuponescontainerComponent
   ],
   imports: [
     MaterialModule,

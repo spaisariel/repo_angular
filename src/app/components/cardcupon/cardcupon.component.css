@@ -1,0 +1,28 @@
+/* .mat-card-header{
+    align-items: center;
+    text-align: center;
+  } 
+  .mat-card{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;  
+  }
+  .example-header-image {
+    background-size: cover;
+  } */
+  .containerlogo{
+    
+    border: solid 3px red;
+    vertical-align: middle;
+    height: 100%;
+    
+  }
+  img{
+    height: 100%;
+    width: 100%;
+    border: solid 3px;
+    vertical-align: middle;
+  }
